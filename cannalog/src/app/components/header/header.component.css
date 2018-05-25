@@ -1,0 +1,32 @@
+header {
+    background-color: green;
+    color: black;
+    border: 1px solid yellow;
+    padding: 10px;
+    height: 150px;
+}
+
+img {
+    float: left;
+    height: 150px;
+    width: 150px;
+
+}
+
+.headerStuff {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: space-around;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center
+}
+
+.innerNav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around
+}

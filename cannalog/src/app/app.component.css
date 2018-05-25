@@ -1,0 +1,30 @@
+* {
+    background-color: green;
+}
+
+nav {
+    border: 1px yellow solid;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+a {
+    color: yellow;
+    text-decoration: none
+}
+
+a:hover {
+    color: white
+}
+
+main {
+    display: flex;
+    flex-flow: row;
+}
+
+app-nav {
+    min-width: 25%;
+    max-width: 25%
+}

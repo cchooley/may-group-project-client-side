@@ -1,0 +1,34 @@
+section {
+    background-color: green;
+    color: black;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.weedCard {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px red double;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(64, 88, 16)
+}
+
+.strainPhoto {
+    height: 200px;
+    width: 200px;
+    border: red double 3px;
+    border-radius: 25px;
+}
+
+h1 {
+    background-color: inherit
+}
+
+span {
+    background-color: inherit
+}
