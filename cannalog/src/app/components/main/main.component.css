@@ -1,13 +1,46 @@
-main {
-    font-size: 15vh;        
+section {
+    display: flex;
+    flex-flow: row;
 }
 
 ul {
     list-style-type: none;
+    font-family: 'Baloo Chettan', cursive;
+    display: flex;
+    flex-flow: column
 }
 
+.weedCard {
+    display: flex;
+    flex-flow: row;
+    padding: 5px;
+}
 img {
     height: 200px;
     width: 200px;
-    border: 1px yellow double
+    border: 1px yellow double;
+    margin: 10px;
+}
+
+h4 {
+    color: yellow;
+    margin: 1px;
+    font-weight: 200;
+    font-size: 5vh;
+}
+
+button {
+    background-color: rgb(64, 88, 16);
+    color: yellow;
+    margin: 2px;
+    border-radius: 7px
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color:black;
+    color: darkred
 }

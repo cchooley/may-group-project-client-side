@@ -8,12 +8,8 @@ import { Weed } from '../models/weed'
 export class HttpService {
   constructor(private _http: HttpClient) { }
 
-  getStrain(name): Observable<Array<Weed>> {
-    return this._http.get<Array<Weed>>(`https://whateverthepathis=${name}`)
-  }
-
-  postStrain(name): Observable<Array<Weed>> {
-    return this._http.post<Array<Weed>>(`https://whateverthepathis=${name}`)
+  getStrain(): Observable<Array<Weed>> {
+    return this._http.get<Array<Weed>>(`https://cannalog.herokuapp.com/api/v1/cannalog/`)
   }
 
   putStrain(name): Observable<Array<Weed>> {

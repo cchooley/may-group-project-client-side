@@ -1,10 +1,30 @@
+<section>
+<nav>
+  <button (click)=filterThis($event)>Sativa</button>
+  <button (click)=filterThis($event)>Indica</button>
+  <button (click)=filterThis($event)>Hybrid</button>
+  <button>Let's Get High!</button>
+</nav>
+
 <ul *ngFor="let type of weed">
-  <li>
-    <img src="{{type.imgUrl}}">
-    <div>Name: {{type.name}}</div>
-    <div>Strain: {{type.strain}}</div>
-    <div>Description: {{type.description}}</div>
-    <div>Strength: {{type.strength}}</div>
-    <div>Rating: {{type.rating}}</div>
+  <li class="weedCard">
+    <div>
+      <img src="{{type.imgUrl}}">
+    </div>
+    <div>
+      <div><h4>{{type.name}}</h4></div>
+      <div>Strain: {{type.strain}}</div>
+      <div>Description: {{type.description}}</div>
+      <div>Strength: {{type.strength}}</div>
+      <div>Rating: {{type.rating}}</div>
+      <div>Rate this: 
+        <button>5</button>
+        <button>4</button>
+        <button>3</button>
+        <button>2</button>
+        <button>1</button>
+    </div>
+    </div>
   </li>
 </ul>
+</section>

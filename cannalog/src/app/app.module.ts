@@ -12,6 +12,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { MainComponent } from './components/main/main.component';
 
+import { HttpService } from './services/http.service';
 
 
 @NgModule({
@@ -30,7 +31,7 @@ import { MainComponent } from './components/main/main.component';
     AppRoutingModule
   ],
   providers: [
-
+    HttpService,
   ],
   bootstrap: [AppComponent]
 })

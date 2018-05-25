@@ -1,6 +1,6 @@
 footer {
-    background-color: green;
-    color: black;
-    border: 1px solid yellow;
-    font-size: 5vh
+    background-color: rgb(64, 88, 16);
+    color: darkred;
+    border: 1px solid black;
+    font-size: 3vh
 }

@@ -1,6 +1,32 @@
 nav {
     background-color: green;
+    color: darkred;
+    font-size: 4vh;      
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+button {
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+    background-color: rgb(64, 88, 16);
     color: yellow;
-    border: 1px solid yellow;
-    font-size: 8vh;      
+    border: 2px darkred solid;
+    border-radius: 7px;
+    width: 200px;
+    font-family: 'Baloo Chettan', cursive;
+    font-size: 3vh
+}
+
+button:focus {
+    outline: none
+}
+
+button:hover {
+    background-color:black;
+    color: darkred
 }

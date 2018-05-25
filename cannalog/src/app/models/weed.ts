@@ -1,4 +1,5 @@
 export interface Weed {
+    id: number;
     name: string;
     strain: string;
     description: string;
