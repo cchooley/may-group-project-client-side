@@ -2,3 +2,40 @@ html {
     background-color: green;
     font-family: 'Monoton', cursive;
 }
+
+h2 {
+    text-align: center;
+}
+
+.profile-img {
+    height: 40vh;
+    width: auto;
+}
+
+.bio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: #333 .5vw .5vw .5vw;
+    background: white;
+    margin: 1vw;
+}
+
+.bio h3 {
+    text-align: center;
+}
+
+.bio img {
+    box-shadow: #333 .5vw .5vw .5vw;
+}
+
+.technologies {
+    display: flex;
+    justify-content: space-around;
+}
+
+.technologies img {
+    height: 25vh;
+    width: auto;
+}
